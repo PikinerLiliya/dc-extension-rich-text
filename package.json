@@ -1,11 +1,13 @@
 {
   "name": "dc-extension-rich-text",
   "private": true,
+  "version": "1.0.0",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "prepare": "lerna run build"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
