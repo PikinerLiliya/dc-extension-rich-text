@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "build": "lerna run build",
-    "prepare": "lerna run build"
+    "postinstall": "lerna run build"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
