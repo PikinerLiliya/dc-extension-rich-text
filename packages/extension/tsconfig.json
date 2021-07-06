@@ -1,22 +1,18 @@
 {
   "extends": "../../tsconfig.settings.json",
   "compilerOptions": {
-    "baseUrl": "./",
     "outDir": "./dist",
-    "sourceMap": true,
+    "target": "es5",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "removeComments": true,
     "declaration": false,
-    "module": "es2015",
-    "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "importHelpers": true,
-    "target": "es2015",
+    "sourceMap": true,
+    "jsx": "react",
     "typeRoots": [
+      "index.d.ts",
       "node_modules/@types"
-    ],
-    "lib": [
-      "es2018",
-      "dom"
     ]
   },
   "include": [
