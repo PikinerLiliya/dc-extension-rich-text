@@ -1,7 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "typeface-roboto";
-import App from "./App";
-import "./index.css";
+export { default as RichTextDialogsContainer } from "./RichTextDialogs/RichTextDialogsContainer";
+export * from "./RichTextDialogs/RichTextDialogsContainer";
+export { default as RichTextEditor } from "./RichTextEditor/RichTextEditor";
+export * from "./RichTextEditor/RichTextEditor";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+
+//ReactDOM.render(<App />, document.getElementById("root"));

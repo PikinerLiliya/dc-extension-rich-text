@@ -3,7 +3,8 @@ import React, { ChangeEvent } from "react";
 import CodeTextArea from "../CodeTextArea/CodeTextArea";
 import ProseMirror from "../ProseMirror/ProseMirror";
 import { EditorView, ViewSwitcher } from "../ViewSwitcher";
-
+import "typeface-roboto";
+import "../index.css";
 import {
   RichLanguage,
   RichLanguageConfiguration,
