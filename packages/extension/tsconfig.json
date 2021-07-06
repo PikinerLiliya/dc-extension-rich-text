@@ -10,8 +10,8 @@
     "declaration": false,
     "sourceMap": true,
     "jsx": "react",
+    "types": [ "node" ],
     "typeRoots": [
-      "index.d.ts",
       "node_modules/@types"
     ]
   },
