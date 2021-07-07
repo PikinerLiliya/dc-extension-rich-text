@@ -6,7 +6,8 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "prepare": "npm i & npm run build"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
