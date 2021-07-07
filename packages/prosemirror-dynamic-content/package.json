@@ -7,7 +7,7 @@
   "module": "dist/index.js",
   "typings": "dist/index.d.ts",
   "dependencies": {
-    "@dc-extension-rich-text/common": "0.1.0",
+    "@dc-extension-rich-text/common": "file:../common",
     "@material-ui/core": "^4.5.1",
     "@material-ui/icons": "^4.5.1",
     "@material/react-material-icon": "^0.15.0",
